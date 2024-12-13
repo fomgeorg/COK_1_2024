@@ -1,0 +1,186 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+
+
+.only_img img {
+    width: 60%;
+}
+
+#content > div.text_with_img > div > img {
+    max-width: 700px;
+    min-width: 100px;
+    width: 90%;
+}
+
+.unic_img_3_1 {
+    max-width: 500px;
+}
+
+.ul_custom {
+    margin-left: 25px;
+    list-style-position: inside;
+}
+
+.ul_table_custom {
+    list-style-position: inside;
+}
+
+.ul_table_custom li {
+    padding-left: 5px;
+}
+
+.ul_custom li {
+    padding: 5px;
+}
+
+.ol_custom {
+    margin-left: 50px;
+}
+
+.img_with_sgn p {
+    max-width: 700px;
+}
+
+
+.table_new_custom table{
+    width: 100%;
+    border-collapse: collapse;
+    /* font-family: Arial, sans-serif; */
+}
+
+.table_new_custom th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table_new_custom th {
+    background-color: #44546A;
+    color: #FFFFFF;
+}
+
+
+.table_new_custom tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table_custom {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.table_custom td, th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table_custom_2 {
+    margin: 1rem;
+    background-color: #EAEFF7;
+    color: #000000;
+}
+
+.table_custom_2 img{
+    background-color: #0070C0;
+    color: #FFFFFF;
+}
+
+.table_custom_2 th, td {
+    padding: 10px;
+    border: 0px;
+}
+
+#content > div:nth-child(4) > img {
+    width: 40%;
+}
+
+#content > div:nth-child(5) > img {
+    width: 40%;
+}
+
+.table_new_custom {
+    margin-left: 25px;
+}
+
+.table_custom_blue {
+    width: 100%;
+}
+
+.two_img_custom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.two_img_custom img {
+    margin: 10px;
+}
+
+
+@media (max-width: 1400px){
+    .two_img_custom{
+        flex-direction: column;
+    }
+
+    .table_custom img {
+        width: 100%;
+    }
+    
+    .two_img_custom > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .only_img img {
+        width: 80%;
+    }
+
+    #content > div:nth-child(4) > img {
+        width: 60%;
+    }
+    
+    #content > div:nth-child(5) > img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 720px){
+
+    #content > div:nth-child(4) > img {
+        width: 100%;
+    }
+    
+    #content > div:nth-child(5) > img {
+        width: 100%;
+    }
+    
+    .table_new_custom {
+        overflow-x: scroll;
+    }
+    
+    .two_img_custom{
+        flex-direction: column;
+    }
+
+    .two_img_custom img {
+        width: 100%;
+    }
+
+    .table_custom img {
+        width: 100%;
+    }
+    
+    .two_img_custom > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .only_img img {
+        width: 90%;
+    }
+}
+

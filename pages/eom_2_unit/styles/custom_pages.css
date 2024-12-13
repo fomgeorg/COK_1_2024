@@ -1,0 +1,95 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+/* 
+#content > div.only_img > img{
+    border-radius: 35px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+} */
+
+.two_img_custom {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.only_img .unique_3 {
+    width: 60%;
+    max-width: 800px;
+}
+
+.only_img .unique_7 {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.only_img .unique_11 {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.only_img .unique_13 {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.only_img .unique_16 {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.table_new_custom table{
+    width: 100%;
+    border-collapse: collapse;
+    /* font-family: Arial, sans-serif; */
+}
+
+.table_new_custom th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table_new_custom th {
+    background-color: #D6DCE5;
+    color: #0B70B8;
+    text-align: center;
+}
+
+.table_new_custom ul li {
+    margin-top: 0px;
+}
+
+
+@media (max-width: 720px){
+    .two_img_custom{
+        flex-direction: column;
+    }
+    
+    .two_img_custom > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.definition p{
+    text-align: left;
+    margin: 0;
+}
+
+.ul_custom {
+    list-style-position: inside;
+    /* margin-left: 50px; */
+}
+
+.ul_custom li {
+    padding: 5px;
+}
+
+.two_img_custom img {
+    margin: 10px;
+    width: 90%;
+}
+
