@@ -71,6 +71,6 @@ ${numFgos} ${numFgosTxt}
 ${numMDK} ${numMDKTxt}
 ${razdel}
 ${themeOfDEC}`
-const blockButtonEOM2 = 0; // "Это для разработки и отладки удобно, блокирует кнопки назад и далее в ЭОМ_2 1 true 0 false"
+const blockButtonEOM2 = 1; // "Это для разработки и отладки удобно, блокирует кнопки назад и далее в ЭОМ_2 1 true 0 false"
 const typeOfEOM3 = 1; // Если 1 то это тест если что то иное то мини-игра
 const typeOfEOM1 = 0; // Если 1 то это video если что то иное то dynamic_info
