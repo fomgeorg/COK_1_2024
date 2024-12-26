@@ -1,6 +1,6 @@
 window.dataLoaded = false;
     let title_of_eom = themeOfDEC;
-    let methodRecomendation = 'Изучите материал о диагностике и испытаниях электрического и электромеханического оборудования. Чтобы перейти к учебному материалу, кликайте на блоки с текстом';
+    let methodRecomendation = 'Изучите материал о породоразрушающем инструменте. Чтобы перейти к учебному материалу, кликайте на блоки с текстом';
     let dropType = 17;
     let typeOfButtons = 'hexagon'; // Можер быть "hexagon", "lightning", "tiles" или "video" или "custom";
     let timings = [ // если typeOfButtons = 'video'
@@ -73,7 +73,7 @@ window.dataLoaded = false;
                 `}
             ],
             "paragraph_2":[
-                {"image": true, "image_path": "./content/page_content/img3_1.png", "img_sign": "Рисунок 4. Устройство долот"},
+                {"image": true, "image_path": "./content/page_content/img3_1.png", "img_sign": ""},
                 {"text": `
                             1,2,3 – ниппель; <br>
                                 4 – уступ;<br>
@@ -101,6 +101,7 @@ window.dataLoaded = false;
                            <img src='./content/page_content/img3_3.png'>
                         </div>
                     </div> 
+                    <p style="text-align: center !important"><b>Рисунок 4. Устройство долот</b></p> <br>
                     `},
             ],
             "paragraph_4":[
